@@ -34,4 +34,4 @@ WebShield provides a simple and effective way to block unwanted websites, ensuri
 
 # Future Updates
 
-- will be notified
+- will be notified.

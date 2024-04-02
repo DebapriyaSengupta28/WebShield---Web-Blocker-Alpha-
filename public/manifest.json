@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "WebShield - Web Blocker (Alpha)",
+  "version": "3.2.0",
+  "description": "Block any website by adding the website url in the block list. Add any website url without 'https://'.",
+"icons": {
+    "16": "iconUI.png",
+    "19": "iconUI.png",
+    "36": "iconUI.png",
+    "32": "iconUI.png",
+    "38": "iconUI.png",
+    "48": "iconUI.png",
+    "128": "iconUI.png",
+    "512": "iconUI.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "iconUI.png",
+      "19": "iconUI.png",
+      "36": "iconUI.png",
+      "32": "iconUI.png",
+      "38": "iconUI.png",
+      "48": "iconUI.png",
+      "128": "iconUI.png",
+      "512": "iconUI.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "webNavigation",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "contentScript.js"
+      ]
+    }
+  ]
+}

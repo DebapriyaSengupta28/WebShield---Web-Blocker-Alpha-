@@ -23,7 +23,7 @@ WebShield provides a simple and effective way to block unwanted websites, ensuri
 # Installation
 
 - 1. Download the GitHub project and extract the folder to your desired location.
-  2. Open your terminal and select the path of the extension (cd "your extension folder path").
+  2. Open your terminal and select the path of the extension. ```cd "your extension folder path"```
   3. Run "npm install" to install dependencies.
   4. Open Chrome and navigate to the extensions menu.
   5. Toggle on "Developer mode" located in the top-right corner.

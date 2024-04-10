@@ -29,7 +29,7 @@ WebShield provides a simple and effective way to block unwanted websites, ensuri
 5. Toggle on "Developer mode" located in the top-right corner.
 6. Click on "Load unpacked" in the extensions menu.
 7. Navigate to the folder of the extension and select the "dist" folder.
-   **Important:** Do not select the entire folder.(/WebShield - Web Blocker/dist).
+   **Important:** Do not select the entire folder.("./WebShield-Web Blocker/dist").
 9. The WebShield extension should now be installed and visible in your browser's toolbar.
 
 

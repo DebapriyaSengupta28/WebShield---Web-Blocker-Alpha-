@@ -214,8 +214,7 @@ function App() {
         )}
         {isSystemOn && isOnline && (
           <p className="current-website">
-            {currentWebsite === "invalid" ||
-            currentWebsite === "eefaacpkphedkcakbfdndfnefdddofne"
+            {currentWebsite === "invalid" || currentWebsite === chrome.runtime.id
               ? "Your site is blocked"
               : `You are in - ${currentWebsite}`}
           </p>

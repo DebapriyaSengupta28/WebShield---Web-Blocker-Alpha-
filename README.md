@@ -1,5 +1,5 @@
 # WebShield - Web Blocker 
-# Version - 3.2.0 (Alpha)
+# Version - 3.2.1 (Alpha)
 
 WebShield is a Chrome extension that allows you to block any website by adding the website URL to a block list.
 
